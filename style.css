@@ -1,0 +1,21 @@
+body {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+svg {
+    background-color: peachpuff;
+}
+
+#canvas {
+    min-width:1000px;
+    min-height:600px;
+}
+
+#tooltip {
+    visibility: hidden;
+    height: auto;
+    width: auto;
+}
